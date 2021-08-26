@@ -70,3 +70,27 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+
+/* ------------------------------------------------First paragraph section-------------------------------- */
+.main-paragraph{
+    font-size:1.6rem;
+    font-weight: bold;
+}
+
+.sub-paragraph{
+    font-size: 1.1rem;
+}
+
+.paragraphs-section{
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 5rem;
+    
+}
+
+.hyperlink{
+    text-decoration: none;
+    color:blue;
+}
