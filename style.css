@@ -1,0 +1,51 @@
+body{
+    font-size:10px;
+        font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* ----------------------------------------Navigation Bar-------------------------------------- */
+.hamburger-menu-icon{
+    height:2rem;
+}
+
+.main-navigation-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar1{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.nav-link{
+    font-size: 1.25rem;
+    margin: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
+
+#try-live-nav-link{
+    font-weight: bold;
+    color:blue;
+}
+
+#login-nav-link{
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+#more-nav-link{
+    color: #ff764d;
+    font-weight: bold;
+}
+
+#about-nav-link{
+    color: #ff764d;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
