@@ -86,11 +86,32 @@ body{
     width: 50%;
     margin: auto;
     text-align: justify;
-    margin-top: 5rem;
+    margin-top: 7rem;
     
 }
 
 .hyperlink{
     text-decoration: none;
     color:blue;
+}
+
+
+
+/*------------------------------------About section1 images design---------------------------------------- */
+.about-section1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right, white 40%, #fbffa7 40%);
+    height: 47rem;
+    margin-top: 7rem;
+}
+
+.image-about-1{
+    width: 45%;
+    height: 35rem;
+}
+
+.image-about-2{
+    height: 22rem;
 }
