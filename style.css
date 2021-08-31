@@ -115,3 +115,13 @@ body{
 .image-about-2{
     height: 22rem;
 }
+
+/* -----------------------------------------------Video------------------------------------ */
+.video-about{
+   display: flex;
+   justify-content: center;
+}
+
+iframe{
+    width:50%;
+}
