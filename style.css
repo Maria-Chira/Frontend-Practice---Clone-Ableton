@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 
-.about-section1,.about-section2{
+.about-section1,.about-section2, .about-section3, .about-section5{
     padding: 0 7rem;
 }
 
@@ -165,4 +165,76 @@ iframe{
 
 .image-about-5{
     width:50%;
+}
+
+/* --------------------------------------------About section3----------------------------------------- */
+.about-section3{
+    width:83.5%;
+    margin-top: 7rem;
+}
+
+/* --------------------------------------------About section4----------------------------------------- */
+.about-section4{
+    position: relative;
+}
+
+.about-page-background{
+    background-color: #D5B3FF;
+    width: 75%;
+    height: 50rem;
+    margin: 7rem auto;
+    z-index:0;
+}
+
+.image-about-6{
+    position: relative;
+    z-index: 1;
+    width: 38%;
+}
+
+.image-about-7{
+    position: relative;
+    z-index: 1;
+    width: 45%;
+}
+
+.image-about-group2{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right:0;
+    left:7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* --------------------------------------------About section5----------------------------------------- */
+.about-section5{
+    margin-top: 7rem;
+    display: flex;
+    margin-bottom: 7rem;
+}
+
+.image-job-teaser{
+    width: 50%;
+}
+
+.join-us-link{
+    background-color: #B1C5FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem;
+}
+
+.paragraph-jobs{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.see-jobs{
+    font-size: 1.7rem;
+    color: blue;
+    font-weight: 500;
 }
